@@ -1,8 +1,7 @@
 '''
-If you choose to build a retrieval-based chatbot, we want to see the following:
 
-You’ve implemented natural language processing and machine learning techniques, including a language or topic model like Bag-of-Words or tf-idf and word embeddings using word2vec.
-You’ve included a closed-domain chatbot architecture that encompasses:
+I’ve implemented natural language processing and machine learning techniques, including a language or topic model like Bag-of-Words or tf-idf and word embeddings using word2vec.
+I’ve included a closed-domain chatbot architecture that encompasses:
 - intent classification
 - entity recognition
 - response selection
@@ -96,7 +95,7 @@ class ChatBot():
         self.negativeWords = [" go away ", " leave ", " nothing ", " stop ", " exit ", " no ", " bye ", " good bye ", " quit ", " nope "]
         #list of positive words
         self.positiveWords = [" yes ", " yea ", " yeah ", " yep ", " correct ", " ye ", " y "]
-        #these are the replies for the retrieval based part of the chatbot
+        #these are the replies for the retrieval based part of the chatbot, here we can extend the answers
         self.posResponses = ["If you are running late your table will still be available 15 minutes after your booked time.", "I\'m OK too :)", "Don't worry about traffic jams, your reservation will be available 15 minutes after your booked time.", "The {0} menu you have chosen does not contain allergens", "We do not serve take-away meals"]
         #posible routes for the rule based ordering 
         self.posRoutes = {
